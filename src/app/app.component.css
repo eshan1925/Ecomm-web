@@ -1,0 +1,15 @@
+.header_top{
+    height: 60px;
+    background-color: #0F1111;
+    font-size: 14px;
+    display: flex;
+    color: white;
+    padding-right: 8px;
+}
+
+.header_menu_logo{
+    object-fit: contain;
+    width: 100px; 
+    margin: 12px 20px 0px 2px;
+}
+
