@@ -12,7 +12,7 @@ import { FooterComponent } from './COMPONENTS/footer/footer.component';
 import { CheckoutComponent } from './PAGES/checkout/checkout.component';
 import { LoginComponent } from './PAGES/login/login.component';
 import { BannerComponent } from './COMPONENTS/banner/banner.component';
-
+import { MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -30,6 +30,7 @@ import { BannerComponent } from './COMPONENTS/banner/banner.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
