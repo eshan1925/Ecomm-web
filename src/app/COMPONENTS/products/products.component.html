@@ -1,0 +1,12 @@
+<div class="products">
+    <div class="product" *ngFor="let item of products">
+        <mat-card>
+            <p>{{item.title}}</p>
+            <p>$ <b>{{item.price}}</b></p>
+            <img src={{item.image}} alt="xbox" class="product_image" >
+            <button (click)="addToCart()">
+                Add to Cart
+            </button>
+        </mat-card>
+    </div>
+</div>

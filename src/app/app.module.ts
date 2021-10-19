@@ -13,6 +13,7 @@ import { CheckoutComponent } from './PAGES/checkout/checkout.component';
 import { LoginComponent } from './PAGES/login/login.component';
 import { BannerComponent } from './COMPONENTS/banner/banner.component';
 import { MatCardModule} from '@angular/material/card';
+import { ProductsComponent } from './COMPONENTS/products/products.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MatCardModule} from '@angular/material/card';
     FooterComponent,
     CheckoutComponent,
     LoginComponent,
-    BannerComponent
+    BannerComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
