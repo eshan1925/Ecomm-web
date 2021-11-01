@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ShoppingCartService {
+  [x: string]: any;
   shopping_cart_items: any[]=[];
 
   constructor() { }
@@ -29,5 +30,10 @@ export class ShoppingCartService {
     let items = this.get_shopping_cart_items();
     return items? this.get_shopping_cart_items().length:0
     console.log('get',items)
+  }
+
+  getTotal = ()=>{
+    let items = this.get_shopping_cart_items();
+    return items?.reduce((acc: any,item: { price: any; })=> acc + item.price,0)
   }
 }
