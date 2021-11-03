@@ -21,6 +21,12 @@
 
 .header_menu > div{
     margin: 8px;
+
+}
+a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
 }
 
 .header_menu_icon > mat-icon{

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ShoppingCartService } from 'src/app/SERVICES/shopping-cart.service';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-header',
