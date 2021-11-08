@@ -37,5 +37,18 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.3.5"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.<br>\r This is a clone of a Ecomm website.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eshan1925/Ecomm-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eshan1925/Ecomm-web/issues"
+  },
+  "homepage": "https://github.com/eshan1925/Ecomm-web#readme"
 }
