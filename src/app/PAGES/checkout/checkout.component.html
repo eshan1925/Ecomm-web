@@ -5,11 +5,13 @@
             <p>You have no items in your basket</p>
         </div>
     </div>
-    <div class="checkout_not_empty" *ngIf="shopping_cart.getCartLength()!=0">
-        <p><strong>Shopping Cart</strong></p>
-        <app-checkout-products [checkout_products] = "items"(deleteEvent) = "deleteEventHandler($event)"></app-checkout-products>
-    </div>
-    <div class="checkout_right">
-        <app-checkout-subtotal></app-checkout-subtotal>
+    <div class="fullcheckout">
+        <div class="checkout_not_empty" *ngIf="shopping_cart.getCartLength()!=0">
+            <p><strong>Shopping Cart</strong></p>
+            <app-checkout-products [checkout_products] = "items"(deleteEvent) = "deleteEventHandler($event)"></app-checkout-products>
+        </div>
+        <div class="checkout_right">
+            <app-checkout-subtotal></app-checkout-subtotal>
+        </div>
     </div>
 </div>

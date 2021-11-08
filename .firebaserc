@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "myclone-fc9c6": {
+      "hosting": {
+        "ecomm-web": [
+          "myclone-fc9c6"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "myclone-fc9c6"
+  }
+}

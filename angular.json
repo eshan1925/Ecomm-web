@@ -100,6 +100,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "ecomm-web:build:production",
+            "firebaseProject": "myclone-fc9c6",
+            "firebaseHostingSite": "myclone-fc9c6"
+          }
         }
       }
     }

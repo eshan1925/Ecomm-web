@@ -5,7 +5,6 @@
 .checkout_product{
     border-top: solid 1px rgb(219, 218, 218);
     display: flex;
-    
 }
 .checkout_product_img{
     object-fit: contain;
@@ -70,6 +69,7 @@
     line-height: 1.255!important;
 }
 .checkout_products_subtotal{
+    padding-top: 1em;
     margin-top: 20px;
     border-top: solid 1px rgb(219, 218, 218);
     width: 100%;

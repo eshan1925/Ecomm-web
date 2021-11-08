@@ -1,5 +1,5 @@
 <div class="checkout_products">
-    <p class="price">Price</p>
+    <p class="price">Prize</p>
     <div class="checkout_product" *ngFor="let p of checkout_products">
        <img src="{{p.image}}" alt="" class="checkout_product_img">
        <div class="checkout_product_info">
@@ -18,15 +18,11 @@
           </div>
           <div class="checkout_options">
             <div class="checkout_dropdown">
-
-       
               </div>
               <a (click)="removeItem(p)"> Delete</a>
               <a href="#">Save for later</a>
               <a href="#">Compare with similar items</a>
-
           </div>
-          
        </div>
        <div class="checkout_products_price">
            <p> <strong>${{p.price}}</strong> </p>

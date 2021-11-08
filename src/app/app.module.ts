@@ -16,6 +16,10 @@ import { MatCardModule} from '@angular/material/card';
 import { ProductsComponent } from './COMPONENTS/products/products.component';
 import { CheckoutProductsComponent } from './COMPONENTS/checkout-products/checkout-products.component';
 import { CheckoutSubtotalComponent } from './COMPONENTS/checkout-subtotal/checkout-subtotal.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -37,6 +41,9 @@ import { CheckoutSubtotalComponent } from './COMPONENTS/checkout-subtotal/checko
     BrowserAnimationsModule,
     MatIconModule,
     MatCardModule,
+    ReactiveFormsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
   ],
   providers: [],
   bootstrap: [AppComponent]
