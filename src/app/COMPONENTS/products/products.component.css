@@ -2,9 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .product > mat-card > img{
     object-fit: contain;
     height: 200px;

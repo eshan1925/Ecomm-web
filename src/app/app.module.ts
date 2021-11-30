@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -20,6 +21,9 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ProductPageComponent } from './PAGES/product-page/product-page.component';
+import { SignupComponent } from './PAGES/signup/signup.component';
+import { ApiService } from './SERVICES/api.service';
 
 @NgModule({
   declarations: [
@@ -32,20 +36,23 @@ import { ReactiveFormsModule } from '@angular/forms';
     BannerComponent,
     ProductsComponent,
     CheckoutProductsComponent,
-    CheckoutSubtotalComponent
+    CheckoutSubtotalComponent,
+    ProductPageComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
     MatIconModule,
     MatCardModule,
     ReactiveFormsModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

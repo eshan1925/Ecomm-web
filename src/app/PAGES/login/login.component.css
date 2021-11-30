@@ -54,8 +54,10 @@ form>input{
 }
 
 .login_create_button{
+    text-decoration: none;
+    padding: 0.5rem;
     border: 1px solid;
-    border-radius: 2px;
+    border-radius: 4px;
     width: 100%;
     height: 30px;
     color: black;
