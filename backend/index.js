@@ -1,3 +1,5 @@
+//jshint esversion:6
+
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyparser = require('body-parser');
@@ -18,7 +20,8 @@ app.set('port', process.env.port || 3000);
 app.use(bodyparser.json());
 app.get('/',(req,res)=>{
     res.send("hello");
-})
+});
+
 
 app.post('/register',(req,res)=>{
     var firstname = req.body.fname;
@@ -42,10 +45,10 @@ app.post('/register',(req,res)=>{
             console.log(err);
             return res.send({success:"Failed to add user",status:500});
         }
-        console.log("Successfully added new user!!!")
+        console.log("Successfully added new user!!!");
         return res.send({success:"Successfully added new user!!!",status:200});
-    })
-})
+    });
+});
 
 
 app.listen(app.get('port'),function(err,response){

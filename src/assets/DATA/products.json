@@ -1,40 +1,403 @@
 [
-    {
-        "id": 1,
+  {
+    "id": 1,
     "title": "xbox one x 1TB",
     "desc": "Microsoft Xbox One X 1Tb Console With Wireless Controller: Xbox One X Enhanced, Hdr, Native 4K, Ultra Hd",
-    "price": 450.00,
-     "image": "https://images-na.ssl-images-amazon.com/images/I/61H3Od2C64L._SL1400_.jpg",
-     "ratings": 4},
-     {   
-        "id": 2,
-        "title": "PlayStation 4 Slim 1TB",
-         "desc": "PlayStation 4 Slim 1TB Console - Only On PlayStation Bundle",
-         "price": 488.00,
-         "image": "https://images-na.ssl-images-amazon.com/images/I/814Cwlg1JaL._SL1500_.jpg",
-         "ratings": 5
-     },
-     {
-        "id": 3,
-        "title": "Pro Angular 9: Build Powerful and Dynamic Web Apps", 
-        "desc": "Pro Angular 9: Build Powerful and Dynamic Web Apps 4th ed. Edition",
-         "price": 28.88,
-         "image": "https://images-na.ssl-images-amazon.com/images/I/418hZfmNkXL._SX348_BO1,204,203,200_.jpg",
-         "ratings": 3
-     },
-     {   
-        "id": 4, 
-         "title": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language", 
-         "desc": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition",
-         "price": 53.00,
-         "image": "https://images-na.ssl-images-amazon.com/images/I/51wijnc-Y8L._SX379_BO1,204,203,200_.jpg",
-         "ratings": 5
-     },
-     {    "id": 5, 
-         "title":"Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast",
-         "desc": "Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast, 2.2 Pound (Pack of 1)",
-         "price": 54.36,
-         "image": "https://images-na.ssl-images-amazon.com/images/I/61fpw9inWTL._SL1296_.jpg",
-         "ratings": 2
-     }
+    "price": 450.0,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61H3Od2C64L._SL1400_.jpg",
+    "ratings": 4
+  },
+  {
+    "id": 2,
+    "title": "PlayStation 4 Slim 1TB",
+    "desc": "PlayStation 4 Slim 1TB Console - Only On PlayStation Bundle",
+    "price": 488.0,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/814Cwlg1JaL._SL1500_.jpg",
+    "ratings": 5
+  },
+  {
+    "id": 3,
+    "title": "Pro Angular 9: Build Powerful and Dynamic Web Apps",
+    "desc": "Pro Angular 9: Build Powerful and Dynamic Web Apps 4th ed. Edition",
+    "price": 28.88,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/418hZfmNkXL._SX348_BO1,204,203,200_.jpg",
+    "ratings": 3
+  },
+  {
+    "id": 4,
+    "title": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language",
+    "desc": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition",
+    "price": 53.0,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51wijnc-Y8L._SX379_BO1,204,203,200_.jpg",
+    "ratings": 5
+  },
+  {
+    "id": 5,
+    "title": "Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast",
+    "desc": "Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast, 2.2 Pound (Pack of 1)",
+    "price": 54.36,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61fpw9inWTL._SL1296_.jpg",
+    "ratings": 2
+  },
+  {
+    "id": 6,
+    "title": "Noise ColorFit Pro 2 Full Touch Control Smart Watch with 35g Weight & Upgraded LCD Display",
+    "desc": "Waterproof,Heart Rate Monitor,Sleep & Step Tracker,Call & Message Alerts & Long Battery Life (Jet Black)",
+    "price": 52.1,
+    "image": "https://m.media-amazon.com/images/I/61xzuXWWozS._SL1200_.jpg",
+    "ratings": 3
+  },
+  {
+    "id": 7,
+    "title": "Samsung 59.8 cm (23.5 inch) Curved LED Backlit Computer Monitor",
+    "desc": "Full HD, VA Panel with VGA, HDMI, Audio Ports - LC24F390FHWXXL (Black)",
+    "price": 53.1,
+    "image": "https://m.media-amazon.com/images/I/71nplbAMwzL._SL1202_.jpg",
+    "ratings": 4
+  },
+  {
+    "id": 8,
+    "title": "Vinod Non-Stick Aluminum Frypan Induction and Gas Stove Friendly Supreme Set of Dosa Tawa",
+    "desc": "Red, 28 cm Kadai with Lid 22cm 2 Litres, Frypan 22 cm 1.2 Litres 14 cm",
+    "price": 54.3,
+    "image": "https://m.media-amazon.com/images/I/61jFf5OsGjL._SL1000_.jpg",
+    "ratings": 5
+  },
+  {
+    "id": 9,
+    "title": "Classic Mosquito Net, Polyester, Foldable for Double Bed",
+    "desc": "Strong 30GSM, PVC Coated Steel - Queen Size, Blue",
+    "price": 52.3,
+    "image": "https://m.media-amazon.com/images/I/71MNVwWhkaL._SL1500_.jpg",
+    "ratings": 3
+  },
+  {
+    "id": 10,
+    "title": "Zebronics Zeb-Warrior 2.0 Multimedia Speaker ",
+    "desc": "Aux Connectivity,USB Powered and Volume Control",
+    "price": 51.2,
+    "image": "https://m.media-amazon.com/images/I/81grtcmxsyL._SL1500_.jpg",
+    "ratings": 2
+  },
+  {
+    "id": 11,
+    "title": "TP-Link TL-WR841N 300Mbps Wireless N Cable, 4 Fast LAN Ports",
+    "desc": "Easy Setup, WPS Button, Supports Parent Control, Guest Wi-Fi Router",
+    "price": 488.0,
+    "image": "https://m.media-amazon.com/images/I/51c-UYDPK1L._SL1000_.jpg",
+    "ratings": 4
+  },
+  {
+    "id": 12,
+    "title": "GRITSTONES Men's Regular Fit T-Shirt",
+    "desc": "Care Instructions: Wash with similar colors, Dry Promptly, Steam Iron",
+    "price": 450.0,
+    "image": "https://m.media-amazon.com/images/I/61k9gzS97ML._UL1440_.jpg",
+    "ratings": 3
+  },
+  {
+    "id": 13,
+    "title": "Conbre MultipleXR2 Pro {Upgraded} HD Smart WiFi Wireless IP CCTV Security Camera ",
+    "desc": "Night Vision | 2-Way Audio | Support 64 GB Micro SD Card Slot",
+    "price": 433.0,
+    "image": "https://m.media-amazon.com/images/I/5182VPo1l7L._SL1000_.jpg",
+    "ratings": 4
+  },
+  {
+    "id": 14,
+    "title": "Cooler Master MasterBox K501L ARGB Mid Tower ATX Gaming Case",
+    "desc": "Pre-Installed Two ARGB Fans, PSU Shroud and Tempered Glass Side Panel",
+    "price": 53.2,
+    "image": "https://m.media-amazon.com/images/I/615IjBros-L._SL1000_.jpg",
+    "ratings": 5
+  },
+  {
+    "id": 15,
+    "title": "HP Ink Tank 415 WiFi Colour Printer, High Capacity Tank 6000 Black and 8000 Colour",
+    "desc": "Low Cost per Page (10p for B/W and 20p for Colour), Borderless Print",
+    "price": 54.5,
+    "image": "https://m.media-amazon.com/images/I/61+rNpWZFJL._SL1500_.jpg",
+    "ratings": 3
+  },
+  {
+    "id": 16,
+    "title": "Godrej 236 L 2 Star Inverter Frost Free Double Door Refrigerator ",
+    "desc": "Jumbo Vegetable Tray (RF EON 236B 25 HI RY DR)",
+    "price": 488.0,
+    "image": "https://m.media-amazon.com/images/I/716wdy9sWuL._SL1500_.jpg",
+    "ratings": 4
+  },
+  {
+    "id": 17,
+    "title": "LG 1.5 Ton 5 Star Inverter Split AC (Copper, Convertible 5-in-1 Cooling",
+    "desc": "HD Filter with Anti-Virus protection , 2021 Model, MS-Q18YNZA, White)",
+    "price": 53.0,
+    "image": "https://m.media-amazon.com/images/I/51lyOjfKhML._SL1500_.jpg",
+    "ratings": 3
+  },
+  {
+    "id": 18,
+    "title": "Omobikes 1.0 Light Weight Hybrid Cycle, 26T Single Speed, for Men Woman and Adults",
+    "desc": "Frame Size 18 inch, Steel Frame, for 13 Year and Above(90% Assembled)",
+    "price": 52.0,
+    "image": "https://m.media-amazon.com/images/I/61Hf5MvrT5L._SL1320_.jpg",
+    "ratings": 2
+  },
+  {
+    "id": 19,
+    "title": "Kadence Slowhand Premium Jumbo Semi Acoustic Guitar",
+    "desc": "Heavy Padded Bag, guitar cable, Pro Capo and Guitar stand (Black Spruce Wood)",
+    "price": 53.0,
+    "image": "https://m.media-amazon.com/images/I/51UPABaYDmL._SL1000_.jpg",
+    "ratings": 4
+  },
+  {
+    "id": 20,
+    "title": "Tec Tavakkal Plastic Battery Operated Converting Car to Robot, Robot to Car Automatically,Robot Toy",
+    "desc": "Light and Sound for Kids Indoor and Outdoor 3 Year, Pack of 1, Multicolor",
+    "price": 28.88,
+    "image": "https://m.media-amazon.com/images/I/51aJbzBc5BL.jpg",
+    "ratings": 5
+  },
+
+  {
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 2,
+    "title": "Mens Casual Premium Slim Fit T-Shirts ",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  },
+  {
+    "id": 3,
+    "title": "Mens Cotton Jacket",
+    "price": 55.99,
+    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
+  },
+  {
+    "id": 4,
+    "title": "Mens Casual Slim Fit",
+    "price": 15.99,
+    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 5,
+    "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+    "price": 695,
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 6,
+    "title": "Solid Gold Petite Micropave ",
+    "price": 168,
+    "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 70
+    }
+  },
+  {
+    "id": 7,
+    "title": "White Gold Plated Princess",
+    "price": 9.99,
+    "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 3,
+      "count": 400
+    }
+  },
+  {
+    "id": 8,
+    "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+    "price": 10.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 1.9,
+      "count": 100
+    }
+  },
+  {
+    "id": 9,
+    "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+    "price": 64,
+    "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+    "rating": {
+      "rate": 3.3,
+      "count": 203
+    }
+  },
+  {
+    "id": 10,
+    "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+    "price": 109,
+    "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 2.9,
+      "count": 470
+    }
+  },
+  {
+    "id": 11,
+    "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+    "price": 109,
+    "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 319
+    }
+  },
+  {
+    "id": 12,
+    "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+    "price": 114,
+    "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  },
+  {
+    "id": 13,
+    "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+    "price": 599,
+    "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 2.9,
+      "count": 250
+    }
+  },
+  {
+    "id": 14,
+    "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+    "price": 999.99,
+    "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
+  },
+  {
+    "id": 15,
+    "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+    "price": 56.99,
+    "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 2.6,
+      "count": 235
+    }
+  },
+  {
+    "id": 16,
+    "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+    "price": 29.95,
+    "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 2.9,
+      "count": 340
+    }
+  },
+  {
+    "id": 17,
+    "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+    "price": 39.99,
+    "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+    "rating": {
+      "rate": 3.8,
+      "count": 679
+    }
+  },
+  {
+    "id": 18,
+    "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+    "price": 9.85,
+    "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 130
+    }
+  },
+  {
+    "id": 19,
+    "title": "Opna Women's Short Sleeve Moisture",
+    "price": 7.95,
+    "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 146
+    }
+  },
+  {
+    "id": 20,
+    "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+    "price": 12.99,
+    "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+    "rating": {
+      "rate": 3.6,
+      "count": 145
+    }
+  }
 ]
