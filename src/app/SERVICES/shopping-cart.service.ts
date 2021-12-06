@@ -7,7 +7,7 @@ export class ShoppingCartService {
   [x: string]: any;
   shopping_cart_items: any[]=[];
 
-  constructor() { }
+  constructor( ) { }
 
   addProduct = (product: string)=>{
     let items = this.get_shopping_cart_items();

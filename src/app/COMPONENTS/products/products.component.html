@@ -1,7 +1,7 @@
 <div class="products">
     <div class="product" *ngFor="let item of products">
         <mat-card>
-            <a href="/product-page"><p>{{item.title}}</p></a>
+            <a href="/product-page" ><p>{{item.title}}</p></a>
             <p>$ <b>{{item.price}}</b></p>
             <img src={{item.image}}>
             <button (click)="addToCart(item)">

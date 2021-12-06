@@ -24,6 +24,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ProductPageComponent } from './PAGES/product-page/product-page.component';
 import { SignupComponent } from './PAGES/signup/signup.component';
 import { ApiService } from './SERVICES/api.service';
+import { PaymentComponent } from './PAGES/payment/payment.component';
+import { CategoriesComponent } from './PAGES/categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { ApiService } from './SERVICES/api.service';
     CheckoutProductsComponent,
     CheckoutSubtotalComponent,
     ProductPageComponent,
-    SignupComponent
+    SignupComponent,
+    PaymentComponent,
+    CategoriesComponent,
   ],
   imports: [
     BrowserModule,

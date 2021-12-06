@@ -5,7 +5,8 @@
         </a>
         <div class="signup_form">
             <h1>Sign-Up</h1>
-            <form id="formData" action="" #userData="ngForm" (ngSubmit)="registerUser(userData.value)" [formGroup] = "SignupForm">
+            <!-- (ngSubmit)="registerUser(userData.value)" -->
+            <form id="formData" action="" #userData="ngForm" [formGroup] = "SignupForm">
                 <h5>
                     First Name
                 </h5>
@@ -20,11 +21,11 @@
                 <input type="email" formControlName="email" >
                 <h5>Password</h5>
                 <input type="password" formControlName="password" >
-                <button type="submit" class="signup_signin_button">Sign In</button>
+                <button type="submit" class="signup_signin_button" (click)="signUp()">Sign In</button>
                 <p class="signup_terms">
                     By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.
                 </p>
-                <a href="/signup" class="signup_create_button">Login Account</a>
+                <button type="button" class="signup_create_button" (click)="moveToLogin()">Login</button>
             </form>
         </div>
     </div>

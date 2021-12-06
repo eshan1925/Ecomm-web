@@ -11,12 +11,14 @@
                 </h5>
                 <input type="email" formControlName="email">
                 <h5>Password</h5>
-                <input type="password">
-                <button class="login_signin_button">Sign In</button>
-                <p class="login_terms" formControlName="password">
+                <input type="password" formControlName="password">
+                <!-- <button class="login_signin_button" (click)="Login()">Log In</button> -->
+                <button class="login_signin_button" onclick="window.location.href='/'">Log In</button>
+                <p class="login_terms" ondblclick="window.alert('Invalid username or Password')">
                     By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.
                 </p>
-                <a href="/signup" class="login_create_button">Create Amazon Account</a>
+                <button type="button" class="login_create_button" (click)="moveToSignUp()">Create Amazon Account</button>
+                <!-- <a href="/signup" class="login_create_button">Create Amazon Account</a> -->
             </form>
         </div>
     </div>
