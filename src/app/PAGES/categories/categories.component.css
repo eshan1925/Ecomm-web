@@ -1,0 +1,37 @@
+.banner{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+    z-index: -1;
+    margin-bottom: -650px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-tile { 
+    border-radius: 1rem;
+    position: relative;
+    border: 5px outset #eb944c;
+    overflow: hidden;
+    width: 300px; /*automatically center image: give width, and margin left/right to auto */
+    height: 300px;
+    margin: 2.3rem 5rem;
+  }
+  .category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+  }
+  .category-tile:hover {
+    box-shadow: 0 1px 50px 1px #ff791f;
+  }
